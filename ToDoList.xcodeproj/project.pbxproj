@@ -33,9 +33,24 @@
 		CB941C542D4E6E1D00D10C62 /* Exceptions for "ToDoList" folder in "ToDoList" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				Info.plist,
+				Resources/Info.plist,
 			);
 			target = CB941C282D4E6E1B00D10C62 /* ToDoList */;
+		};
+		CBA04BE42D521AAC00CB9A51 /* Exceptions for "ToDoList" folder in "ToDoListTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Modules/TaskDetailModule/TaskDetailEntity.swift,
+				Modules/TaskDetailModule/TaskDetailInteractor.swift,
+				Modules/TaskDetailModule/TaskDetailPresenter.swift,
+				Modules/TaskEditModule/TaskEditEntity.swift,
+				Modules/TaskEditModule/TaskEditInteractor.swift,
+				Modules/TaskEditModule/TaskEditPresenter.swift,
+				Modules/ToDoListModule/ToDoListEntity.swift,
+				Modules/ToDoListModule/ToDoListInteractor.swift,
+				Modules/ToDoListModule/ToDoListPresenter.swift,
+			);
+			target = CB941C412D4E6E1D00D10C62 /* ToDoListTests */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
@@ -44,6 +59,7 @@
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
 				CB941C542D4E6E1D00D10C62 /* Exceptions for "ToDoList" folder in "ToDoList" target */,
+				CBA04BE42D521AAC00CB9A51 /* Exceptions for "ToDoList" folder in "ToDoListTests" target */,
 			);
 			path = ToDoList;
 			sourceTree = "<group>";
@@ -291,7 +307,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 66HU5NYDZZ;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ToDoList/Info.plist;
+				INFOPLIST_FILE = ToDoList/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -319,7 +335,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 66HU5NYDZZ;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ToDoList/Info.plist;
+				INFOPLIST_FILE = ToDoList/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
