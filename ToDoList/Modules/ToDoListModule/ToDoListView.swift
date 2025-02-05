@@ -18,5 +18,6 @@ class ToDoListView: UIViewController, ToDoListViewProtocol {
         super.viewDidLoad()
         
         view.backgroundColor = .systemRed
+        presenter?.viewDidLoaded()
     }
 }

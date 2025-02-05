@@ -8,7 +8,7 @@
 import UIKit
 
 class ToDoListModuleBuilder {
-    func build() -> UIViewController {
+    static func build() -> UIViewController {
         let view = ToDoListView()
         let interactor = ToDoListInteractor()
         let router = ToDoListRouter()

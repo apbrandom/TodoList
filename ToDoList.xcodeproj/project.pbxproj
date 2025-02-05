@@ -40,9 +40,6 @@
 		CBA04BE42D521AAC00CB9A51 /* Exceptions for "ToDoList" folder in "ToDoListTests" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				Modules/TaskDetailModule/TaskDetailEntity.swift,
-				Modules/TaskDetailModule/TaskDetailInteractor.swift,
-				Modules/TaskDetailModule/TaskDetailPresenter.swift,
 				Modules/TaskEditModule/TaskEditEntity.swift,
 				Modules/TaskEditModule/TaskEditInteractor.swift,
 				Modules/TaskEditModule/TaskEditPresenter.swift,
